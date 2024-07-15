@@ -1,11 +1,13 @@
 // import { useState } from 'react'
 import './App.css'
+import Header from './modules/components/Header/Header'
+import Navbar from './shared/components/NavBar/NavBar'
 
-function App() {
-
+function App () {
   return (
     <>
-    <h1>Hola Cabo Coffee Time!</h1>
+      <Navbar />
+      <Header />
     </>
   )
 }
