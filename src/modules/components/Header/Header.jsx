@@ -14,7 +14,7 @@ function Header(props) {
       </div>
       <div className={styles.heroContent}>
         <h1>CABO COFFEE TIME</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Donde cada taza de café es una obra de arte, elaborada con granos seleccionados y tostados con pasión.</p>
 
         <MyButton handleClick={props.handleClick} />
       </div>
