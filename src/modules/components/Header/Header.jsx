@@ -3,9 +3,7 @@ import styles from "./Header.module.css";
 import cctLogo from '../../../assets/cabo-coffee-time-logo-full-no-bg.png'
 import MyButton from "../../../shared/components/Button/MyButton";
 
-function Header(props) {
-
-  // console.log('props on header: ', props.handleClick);
+function Header() {
 
   return (<>
     <section className={styles.heroCover} id="header">
@@ -16,7 +14,7 @@ function Header(props) {
         <h1>CABO COFFEE TIME</h1>
         <p>Donde cada taza de café es una obra de arte, elaborada con granos seleccionados y tostados con pasión.</p>
 
-        <MyButton handleClick={props.handleClick} />
+        <MyButton />
       </div>
     </section>
   </>);

@@ -1,16 +1,15 @@
 import styles from './MyButton.module.css';
-// import { useNavigate } from 'react-router-dom';
+import menuImage from "../../../assets/menu-cct.jpeg";
 
-function MyButton(props){
-
-
-  console.log('ques props en myButton?: ', props)
-
+function MyButton(){
 
   return(
-    <button className={styles.myButton} onClick={() => props.handleClick()}  >
+    <a href={menuImage} alt="Menu image">
+
+    <button className={styles.myButton} >
       <span>Descarga nuestro menú aquí </span>
     </button>
+    </a>
   )
 }
 

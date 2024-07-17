@@ -9,19 +9,13 @@ import Footer from './modules/components/Footer/Footer'
 
 function App() {
 
-  function handleClick() {
-    alert('hello');
-    // navigate('/')
-  }
-
-
   return (
     <>
       <Routes>
         <Route path='/' element={
           <>
             <Navbar />
-            <Header handleClick={handleClick} />
+            <Header />
             <BigTextCentered />
             <MapLocation />
             <Footer />
