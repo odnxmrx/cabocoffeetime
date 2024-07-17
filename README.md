@@ -1,8 +1,25 @@
-# React + Vite
+# Cabo Coffee Time
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+This website serves as our digital presence, showcasing our menu, location, and the unique ambiance of our café.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Home Page: Welcome visitors with beautiful imagery and an introduction to our coffee shop.
+- Menu: Display our selection of coffees, teas, and snacks. (to be added)
+- Location: Embed a Google Map to help customers find us easily.
+- Responsive Design: Ensure a seamless experience on both desktop and mobile devices.
+
+## Installation
+This project was created using `React + Vite`.
+
+1. To get started, please install the dependencies first:
+```
+  npm install
+```
+
+2. Start the development server:
+```
+  npm run dev
+```
