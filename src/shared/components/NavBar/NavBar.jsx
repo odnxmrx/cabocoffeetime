@@ -14,22 +14,22 @@ function Navbar() {
   }
 
   return (
-      <header>
+      <header style={{position: "absolute", width:"100%", zIndex:9}}>
         <nav className={`${styles.navbar}`}>
           {/* logo */}
-          <a href='#home' className={`${styles.logo}`}>CCT. </a>
+          <a href='#home' className={`${styles.logo}`}>Cabo Coffee Time </a>
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
             <li onClick={removeActive}>
               <a href='#home' className={`${styles.navLink}`}>Inicio</a>
             </li>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>Nosotros</a>
+              <a href='#nosotros' className={`${styles.navLink}`}>Nosotros</a>
             </li>
-            <li onClick={removeActive}>
+            {/* <li onClick={removeActive}>
               <a href='#home' className={`${styles.navLink}`}>Menú</a>
-            </li>
+            </li> */}
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>Ubicación</a>
+              <a href='#mapa' className={`${styles.navLink}`}>Ubicación</a>
             </li>
           </ul>
           <div className={`${styles.hamburger} ${isActive ? styles.active : ''}`} onClick={toggleActiveClass}>

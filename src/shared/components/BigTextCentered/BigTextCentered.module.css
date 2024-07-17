@@ -1,0 +1,32 @@
+.sectionCover {
+  /* fondo a colocar */
+  background-image: url("../../../assets/overhead-shot-coffee-beans.jpg");
+  /* abarca toda la pantalla principal */
+  max-height: 40%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0% 8%;
+}
+
+.centeredItems {
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 15% 8%;
+}
+
+.centeredItems h2 {
+  font-size: 4rem;
+  /* text-align: center; */
+}
+
+.centeredItems h3 {
+  font-size: 2rem;
+  /* text-align: center; */
+}
