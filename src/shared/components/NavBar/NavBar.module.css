@@ -12,7 +12,8 @@
 }
 
 .navbar a {
-  color: #ffffff
+  color: #ffffff;
+  line-height: 28px;
 }
 
 
